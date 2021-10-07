@@ -64,7 +64,54 @@
         </a>
 
 
-        <nav class="menu p-3">
+        <!-- Navbar -->
+
+        <nav class="navbar navbar-dark p-1 sizeFontNavBar">
+            <!-- Navbar content -->
+            <nav id="barraMenu" class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid  bg-transparent">
+                    <!--             <a class="navbar-brand" href="../index.html">
+                <img src="img/logoElevenFlow.png" loading="lazy" alt="Logo de Refugio"
+                    class="align-text-top bg-body rounded sizeImgageNav">
+            </a>
+ --> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul id="navbar-nav" class="navbar-nav">
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center active" aria-current="page"
+                                    href="#">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
+                            </li>
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center" href="#quienesSomos"> ¿Quiénes
+                                    somos?</a>
+                            </li>
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center" href="#videoClips">Videoclips</a>
+                            </li>
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center" href="#fotos">&nbsp;&nbsp;Fotos&nbsp;&nbsp;</a>
+                            </li>
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center" href="#indumentaria">Indumentaria</a>
+                            </li>
+
+                            <li class="text-white botonMenu rounded-pill me-3">
+                                <a class="nav-link text-center" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <!-- Final Navbar -->
+
+
+
+
+        <!--         <nav class="menu p-3">
             <a href="#home"><button type="button" class="btn text-white botonMenu rounded-pill me-3">&nbsp; &nbsp;
                     &nbsp; &nbsp;&nbsp; Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
             <a href="#quienesSomos"><button type="button" class="btn text-white botonMenu rounded-pill me-3"> ¿Quiénes
@@ -79,11 +126,8 @@
             <a href="#contacto"><button type="button" class="btn text-white botonMenu rounded-pill me-3">&nbsp; &nbsp;
                     &nbsp; &nbsp; Contacto &nbsp; &nbsp; &nbsp; &nbsp;</button></a>
         </nav>
-        <div>
-
-        </div>
-
-        <div class="col-12">
+ -->
+        <div class="contenedor">
             <img src="./img/header.png" class="imagenYoung text-center" alt="">
 
         </div>
@@ -126,7 +170,7 @@
         </div>
         <div class="text-center text-white">
             <br>
-            <h2>Somos una marca activista de la cutura Hip Hop y Reggaeton que ofrece:</h2>
+            <p class="subTitulo">Somos una marca activista de la cutura Hip Hop y Reggaeton que ofrece:</p>
         </div>
         <div>
             <div>
@@ -134,13 +178,13 @@
             </div>
 
             <div class="container p-5">
-                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center p-5">
+                <div class="row row-cols-sm-1 row-cols-md-3  row-cols-lg-3 row-cols-xl-3 mb-3 text-center p-5">
 
 
                     <div class="col">
                         <div class=" rounded-3  mb-5 cardSomos">
                             <div class="text-white">
-                                <h2 class="card-title p-5">Periodismo</h2>
+                                <p class="card-title p-5 sizeTexto">Periodismo</p>
                                 <img src="./img/VectorMicrofono.png" class="vectores" alt="">
                                 <ul class="list-unstyled rectanguloFondo">
                                     <br><br>
@@ -157,7 +201,7 @@
                     <div class="col">
                         <div class=" rounded-3  mb-5 cardSomos">
                             <div class="text-white">
-                                <h2 class="card-title p-5">Contenido</h2>
+                                <p class="card-title p-5 sizeTexto">Contenido</p>
                                 <img src="./img/VectorCamara.png" class="vectores" alt="">
                                 <ul class="list-unstyled rectanguloFondo">
                                     <br><br>
@@ -175,7 +219,7 @@
                     <div class="col">
                         <div class=" rounded-3  mb-5 cardSomos">
                             <div class="text-white">
-                                <h2 class="card-title p-5">Eventos</h2>
+                                <p class="card-title p-5 sizeTexto">Eventos</p>
                                 <img src="./img/VectorNotaMusical.png" class="vectores" alt="">
                                 <ul class="list-unstyled rectanguloFondo">
                                     <br><br>
@@ -212,8 +256,8 @@
         <div class="col-12 paredLadrillo">
             <br>
             <div class="container">
-                <video class="sizeVideo p-5" src="./videos/COMP 1_1.mp4"autoplay loop controls mute></video>
-            </div>
+                <video class="sizeVideo p-5" src="./videos/COMP 1_1.mp4" controls></video>  <!-- autoplay mute loop -->
+            </div> 
             <br>
         </div>
         <br>
@@ -271,7 +315,9 @@
         <div>
             <img src="./img/the-young-handsome-happy-hipster-man-listening-music-with-headphones-at-black-studio-with-neon-lights-disco-night-club-hip-hop-style-positive-emotions-face-expression-dancing-concept.png"
                 class="fotoContacto" alt="">
-            <h2 class="">CONTACTANOS</h2>
+            <img src="./img/email.png" class="mail" alt="">
+        </div>
+        <div>
         </div>
         <br>
 
@@ -281,7 +327,9 @@
 
     <!-- Seccion Footer -->
     <footer class="fondoFooter sizeTextoFooter container-fluid rounded-1" id="contacto">
-        <p class="mb-2 tituloFooter">
+       
+       
+<!--         <p class="mb-2 tituloFooter">
             CONTACTANOS
         </p>
         <div class="col-12" style="background-color: rgb(175, 192, 170);"> </div>
@@ -313,6 +361,8 @@
                 <P>*Todos los campos son obligatorios</P>
                 <button type="submit" class="btn btn-outline-dark">Enviar</button>
             </div>
+ -->
+
             <div class="col-12"> </div>
             <section class="container">
                 <div class="row">

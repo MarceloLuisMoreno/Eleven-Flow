@@ -16,29 +16,47 @@
 
 
     @include media(xs) {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     @include media(sm) {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     @include media(md) {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
-.margenFotoNosotros {
-    margin: 2.5rem 0rem 0rem rem;
+.subTitulo {
+    font-family: Roboto;
+    font-size: 2.5rem;
+    padding: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: rgba(65, 245, 220, 0.56);
+
+
+    @include media(xs) {
+        font-size: 1rem;
+    }
 
     @include media(sm) {
-        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    @include media(md) {
+        font-size: 1.8rem;
     }
 }
 
-.sizeTextoNosotros {
-    text-align: justify;
-    color: $fondoOscuro;
+
+.sizeTexto {
+    text-align: center;
+    color: white;
 
     @include media(xs) {
         font-size: .8rem;
@@ -49,11 +67,11 @@
     }
 
     @include media(md) {
-        font-size: 1.1rem;
+        font-size: 2rem;
     }
 
     @include media(lg) {
-        font-size: 1.2rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -66,14 +84,14 @@
 }
 
 .rectanguloFondo {
-    width: 100%;
-    height: auto;
     background-image: url("../../img/rectangle281.png");
+    background-position: center;
     background-size: cover;
 }
 
 
 .vectores {
+    z-index: 5;
     max-width: 20%;
 }
 

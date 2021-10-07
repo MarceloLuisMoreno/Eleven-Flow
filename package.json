@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "<h1 align=\"center\">Hi 👋, I'm Marcelo Luis Moreno</h1> <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloLuisMoreno/Eleven-Flow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarceloLuisMoreno/Eleven-Flow/issues"
+  },
+  "homepage": "https://github.com/MarceloLuisMoreno/Eleven-Flow#readme"
 }

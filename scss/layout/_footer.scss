@@ -80,9 +80,18 @@
 }
 
 .fotoContacto {
+    position: relative;
     width: 50%;
     z-index: 5;
     bottom: 0;
     visibility: inherit;
 }
 
+.mail {
+    display: flex;
+    z-index: 6;
+    width: 30%;
+    position: relative;
+    left: 60%;
+    bottom: 600px;
+}
