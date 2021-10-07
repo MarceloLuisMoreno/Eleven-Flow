@@ -548,7 +548,7 @@ img:nth-child(5) {
 
 .mail {
   display: flex;
-  z-index: 6;
+  z-index: 7;
   width: 30%;
   position: relative;
   left: 60%;
