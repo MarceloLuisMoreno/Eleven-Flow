@@ -15,8 +15,8 @@ $mensaje .= "Su e-mail es: " . $mail . "\r\n";
 $mensaje .= "Mensaje: " . $comentario . "\r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time()). "\r\n";
 
-$para = 'estudiokalich@gmail.com';
-$asunto = 'Mensaje de mi sitio web KALICH';
+$para = 'elevenflow995@gmail.com';
+$asunto = 'Mensaje de mi sitio web ELEVEN FLOW';
 
 if (mail($para, $asunto, utf8_decode($mensaje), $header))
 {
