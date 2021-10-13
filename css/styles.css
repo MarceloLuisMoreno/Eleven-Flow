@@ -27,8 +27,23 @@
 .posicionManchaUno {
   position: absolute;
   width: 30%;
-  top: 20%;
+  top: 18%;
   mix-blend-mode: normal;
+}
+@media (max-width: 360px) {
+  .posicionManchaUno {
+    top: 15%;
+  }
+}
+@media (min-width: 361px) and (max-width: 768px) {
+  .posicionManchaUno {
+    top: 10%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1360px) {
+  .posicionManchaUno {
+    top: 12%;
+  }
 }
 
 .botonMenu {
@@ -64,11 +79,6 @@
   .logo {
     width: 120px;
   }
-}
-
-.imagenYoung {
-  width: 100%;
-  height: auto;
 }
 
 .facebook {

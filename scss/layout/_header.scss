@@ -17,8 +17,18 @@
 .posicionManchaUno {
     position: absolute;
     width: 30%;
-    top: 20%;
+    top: 18%;
     mix-blend-mode: normal;
+    @include media(xs) {
+        top: 15%;
+    }
+    @include media(sm) {
+        top: 10%;
+    }
+    @include media(md) {
+        top: 12%;
+    }
+
 }
 
 .botonMenu {
@@ -51,10 +61,6 @@
     }
 }
 
-.imagenYoung {
-    width: 100%;
-    height: auto;
-}
 
 .facebook {
     position: absolute;
