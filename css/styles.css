@@ -489,7 +489,7 @@
 }
 
 .pic-ctn {
-  width: 98vw;
+  width: auto;
 }
 
 @keyframes display {
@@ -665,39 +665,6 @@ img:nth-child(6) {
 }
 
 /* Footer */
-.tituloFooter {
-  font-family: "GidolinyaRegular", sans-serif;
-  font-size: 4rem;
-  font-weight: bolder;
-  font-display: fallback;
-}
-@media (max-width: 360px) {
-  .tituloFooter {
-    font-size: 1.4rem;
-  }
-}
-@media (min-width: 361px) and (max-width: 768px) {
-  .tituloFooter {
-    font-size: 1.8rem;
-  }
-}
-@media (min-width: 769px) and (max-width: 1360px) {
-  .tituloFooter {
-    font-size: 2rem;
-  }
-}
-
-.fondoFooter {
-  background: url("../img/footerTexture.png");
-  mix-blend-mode: overlay;
-}
-
-.footerIndex {
-  justify-content: center;
-  text-decoration: none;
-  list-style: none;
-}
-
 .sizeTextoFooter {
   padding: 1.5%;
   font-size: 1.3rem;
@@ -754,10 +721,9 @@ img:nth-child(6) {
 
 .fotoContacto {
   position: relative;
-  width: 90%;
+  width: auto;
+  max-width: 700px;
   z-index: 5;
-  bottom: 0;
-  visibility: inherit;
 }
 @media (max-width: 360px) {
   .fotoContacto {
@@ -775,30 +741,38 @@ img:nth-child(6) {
   }
 }
 
-.mail {
-  display: flex;
+.imagenEmail {
   z-index: 7;
-  width: 80%;
+  width: 90%;
   position: relative;
 }
-@media (min-width: 769px) and (max-width: 1360px) {
-  .mail {
-    width: 30%;
+@media (max-width: 360px) {
+  .imagenEmail {
+    width: 50%;
   }
 }
 @media (min-width: 361px) and (max-width: 768px) {
-  .mail {
+  .imagenEmail {
     width: 50%;
   }
 }
+@media (min-width: 769px) and (max-width: 1360px) {
+  .imagenEmail {
+    width: 60%;
+  }
+}
 @media (min-width: 1361px) {
-  .mail {
-    width: 50%;
+  .imagenEmail {
+    width: 70%;
   }
 }
 
 .fondoFinal {
   background-color: #100a1f;
+}
+
+.contactos {
+  overflow: hidden;
 }
 
 .margenMenuError {

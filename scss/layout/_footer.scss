@@ -1,37 +1,5 @@
 /* Footer */
 
-.tituloFooter {
-    font-family: 'GidolinyaRegular', sans-serif;
-    font-size: $sizeTit;
-    font-weight: bolder;
-    font-display: fallback;
-
-    @include media(xs) {
-        font-size: 1.4rem;
-    }
-
-    @include media(sm) {
-        font-size: 1.8rem;
-    }
-
-    @include media(md) {
-        font-size: 2rem;
-    }
-}
-
-.fondoFooter {
-    background: url("../img/footerTexture.png");
-    
-    mix-blend-mode: overlay;
-
-}
-
-.footerIndex {
-    justify-content: center;
-    text-decoration: none;
-    list-style: none;
-}
-
 .sizeTextoFooter {
     padding: 1.5%;
     font-size: 1.3rem;
@@ -81,10 +49,10 @@
 
 .fotoContacto {
     position: relative;
-    width: 90%;
+    width: auto;
+    max-width: 700px;
     z-index: 5;
-    bottom: 0;
-    visibility: inherit;
+
     @include media(xs) {
         width: 90%;
     }
@@ -98,24 +66,34 @@
     }
 }
 
-.mail {
-    display: flex;
+.imagenEmail {
     z-index: 7;
-    width: 80%;
+    width: 90%;
     position: relative;
-    @include media(md) {
-        width: 30%;
+
+    @include media(xs) {
+        width: 50%;
     }
+
     @include media(sm) {
         width: 50%;
     }
 
+    @include media(md) {
+        width: 60%;
+    }
+
+
     @include media(lg) {
-        width: 50%;
+        width: 70%;
     }
 
 }
 
 .fondoFinal {
     background-color: #100a1f;
+}
+
+.contactos {
+    overflow: hidden;
 }
